@@ -18,7 +18,7 @@ const watcher = chokidar.watch(['dist'], {
   ignoreInitial: true
 });
 
-tinylr().listen(35729, function() {
+tinyServer.listen(35729, function() {
   console.log('livereload up... 🔄 ✨');
 });
 

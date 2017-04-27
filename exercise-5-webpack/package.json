@@ -27,5 +27,10 @@
     "uglifyjs": "^2.4.10",
     "watch": "^1.0.2",
     "webpack": "^2.4.1"
+  },
+  "devDependencies": {
+    "exit-hook": "^1.1.1",
+    "shelljs": "^0.7.7",
+    "tiny-lr": "^1.0.3"
   }
 }
