@@ -6,7 +6,7 @@
   "scripts": {
     "start": "",
     "css": "cssmin src/css/*.css > dist/css/theme.min.css",
-    "js": "uglifyjs src/js/**/*.js -o dist/js/app.min.js",
+    "js": "uglifyjs src/js/*.js -o dist/js/app.min.js",
     "copy": "ncp public dist",
     "build": "parallelshell 'npm run js' 'npm run css'",
     "watch": "parallelshell 'npm run watch:src' 'npm run watch:public'",
